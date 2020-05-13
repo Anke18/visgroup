@@ -4,10 +4,10 @@
  * @Author: Anke Wang
  * @Date: 2020-05-08 13:27:01
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-12 18:45:11
+ * @LastEditTime: 2020-05-13 11:23:19
  */
 
-//import './css/index.css'
+import './css/index.css'
 import 'jquery';
 import echarts from 'echarts'
 import 'leaflet';
@@ -291,7 +291,7 @@ var option = {
             normal: {
                 color: function(params) {
                     var colorList = ['#787D7B','#86A697',"#3A8FB7",'#86C166',"#7DB9DE","#DAC9A6","#F6C555","#FAD689","#F17C67",];
-                   // console.log(params.dataIndex);
+                    //console.log(params.dataIndex);
                     return colorList[params.dataIndex];
                 },
             }
@@ -1170,6 +1170,7 @@ var option3 = {
 };
 
 chart3.setOption(option3);
+
 /*
 var options = { // put in gridstack options here
     disableOneColumnMode: true, // for jfiddle small window size
