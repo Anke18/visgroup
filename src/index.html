@@ -4,10 +4,10 @@
  * @Author: Anke Wang
  * @Date: 2020-04-02 10:03:16
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-13 15:51:23
+ * @LastEditTime: 2020-05-13 17:44:16
  -->
 
- <title>Viral Genotyping Map - 2019 Novel Coronavirus Resource</title>
+ <title>Global Distribution of Haplotype Cluster - 2019 Novel Coronavirus Resource</title>
  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
  <link href="https://cdn.bootcss.com/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
  <link href="https://cdn.bootcss.com/select2/4.0.12/css/select2.min.css" rel="stylesheet">
@@ -196,6 +196,10 @@ body {
   color: inherit;
 }
 
+a:focus,
+a:hover {
+  color: #FAD689;
+}
 
 .fa-globe-americas:focus,
 .fa-globe-americas:hover {
@@ -205,6 +209,10 @@ body {
 .fa-chart-pie:focus,
 .fa-chart-pie:hover {
   color: #FAD689;
+}
+
+h4 {
+    display: inline-block
 }
 
 .sidebar-heading {
@@ -229,34 +237,23 @@ body {
  </style>
 
 
- <!---
- <div class="grid-stack">
-    <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="2" data-gs-height="2">
-      <div class="grid-stack-item-content">item1 </div>
-    </div>
-
-    <div class="grid-stack-item" data-gs-x="2" data-gs-y="0" data-gs-width="2" data-gs-height="1">
-      <div class="grid-stack-item-content">item2</div>
-    </div>
-  </div>
--->
-
-
   <div class="container-fluid">
     <div class="row">
-      <nav class="d-none d-md-block bg-light sidebar">
+      <nav class="d-none d-md-block bg-light sidebar col-md-1">
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
             <li class="nav-item">
               <a class="nav-link" href="#cgroup">
                 <span data-feather="home"></span>
-                <i class="fas fa-globe-americas"></i>
+                <i class="fas fa-globe-americas" style="display: inline-block;">
+                  <h6 style="display: inline-block;">&nbsp; Cluster</h6>
+                </i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#roseGraph">
+              <a class="nav-link" href="#rose">
                 <span data-feather="file"></span>
-                <i class="fas fa-chart-pie"></i>
+                <i class="fas fa-chart-pie" style="display: inline-block;"><h6 style="display: inline-block;">&nbsp;Samples</h6></i>
               </a>
             </li>
           </ul>
@@ -265,7 +262,16 @@ body {
   
       <main role="main" style="margin-left:10%;" class = "col-md-10">
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h1 class="h2" id = "cgroup">Global Distribution of Various </h1>
+          <h1 class="h2" >Global Distribution of  <a href="#cgroup">Haplotype Cluster</a> or
+            <a href="#rose">Samples</a> </h1>
+        </div>
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+         
+          <h3>
+            <i class="fas fa-globe-americas" style="display: inline-block;"></i> 
+            <div id = "cgroup" style="display: inline-block;">&nbsp;&nbsp; Global Distribution of Haplotype Cluster for Each Country/Continent</div>
+          </h3> 
+        
         </div>
       <div class="card"  style="width: 100%; height: 300px;">
         <div class="card-body">
@@ -276,7 +282,13 @@ body {
       <div class="card" style="width: 100%; height: 650px; margin-top:30px;">
           <div id="main1" style="width: 100%; height: 100%;"></div>
       </div>
-
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        
+      <h3> 
+        <i class="fas fa-chart-pie" style="display: inline-block;"></i>
+        <div id = "rose" style="display: inline-block;">&nbsp;&nbsp; Global Distribution of Samples for Each Haplotype Cluster</div>
+      </h3>
+      </div>
       <div class="card" style="width: 100%; height: 1600px; margin-top:30px;">
         <div class="card-body">
           <div id="roseGraph" style="width: 100%; height: 100%;"></div>

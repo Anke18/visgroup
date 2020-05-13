@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-08 13:27:01
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-13 15:50:12
+ * @LastEditTime: 2020-05-13 17:05:24
  */
 
 import './css/index.css'
@@ -136,33 +136,51 @@ $.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=group_
                 subtext: cdatas[0].id,
                 left: '7.5%',
                 top: '70%',
-                textAlign: 'center'
+                textAlign: 'center',
+                subtextStyle: {
+                    color: '#424242'
+                },
             }, {
                 subtext: cdatas[1].id,
                 left: '25%',
                 top: '70%',
-                textAlign: 'center'
+                textAlign: 'center',
+                subtextStyle: {
+                    color: '#424242'
+                },
             }, {
                 subtext: cdatas[2].id,
                 left: '41%',
                 top: '70%',
-                textAlign: 'center'
+                textAlign: 'center',
+                subtextStyle: {
+                    color: '#424242'
+                },
             },
             {
                 subtext: cdatas[3].id,
                 left: '57.5%',
                 top: '70%',
-                textAlign: 'center'
+                textAlign: 'center',
+                subtextStyle: {
+                    color: '#424242'
+                },
             }, {
                 subtext: cdatas[4].id,
                 left: '74.5%',
                 top: '70%',
-                textAlign: 'center'
+                textAlign: 'center',
+                subtextStyle: {
+                    color: '#424242'
+                },
             }, {
                 subtext: cdatas[5].id,
                 left: '91%',
                 top: '70%',
-                textAlign: 'center'
+                textAlign: 'center',
+                subtextStyle: {
+                    color: '#424242'
+                },
             },],
             tooltip: {
                 trigger: 'item',

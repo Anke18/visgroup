@@ -4,14 +4,14 @@
  * @Author: Anke Wang
  * @Date: 2020-05-13 14:37:28
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-13 15:21:58
+ * @LastEditTime: 2020-05-13 16:12:44
  */
 
-export const defaultColor = ["#F75C2F", "#FB966E", "#F17C67", "#F596AA", "#F19483", "#FB9966",//"#FC9F4D",
+export const defaultColor = ["#F75C2F", "#FB966E", "#F17C67", "#F596AA", "#F19483", "#FB9966","#FC9F4D",
     "#C78550", "#E1A679", "#C78550", "#A36336",
     "#B481BB", "#E16B8C", "#E03C8A", "#6D2E5B",
     "#A5DEE4", "#81C7D4", "#33A6B8", "#0089A7", "#3A8FB7",
-    //"#6699A1","#1E88A8","#51A8DD","#7DB9DE","#58B2DC","#2B5F75",
+    "#6699A1","#1E88A8",//"#51A8DD","#7DB9DE","#58B2DC","#2B5F75",
     "#3A8FB7", "#2E5C6E", "#006284", "#2EA9DF",
     "#7B90D2", "#7B90D2", "#005CAF", "#113285",
     "#0F2540", "#211E55", "#0D5661", "#77969A",
