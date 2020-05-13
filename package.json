@@ -1,0 +1,48 @@
+{
+  "name": "visgroup",
+  "version": "1.0.0",
+  "description": "for group ncov data visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack-dev-server --progress --colors",
+    "build": "webpack --mode production",
+    "analyz": "NODE_ENV=production npm_config_report=true npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anke18/visgroup.git"
+  },
+  "keywords": [],
+  "author": "Anke Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anke18/visgroup/issues"
+  },
+  "homepage": "https://github.com/Anke18/visgroup#readme",
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "echarts": "^4.7.0",
+    "echarts-leaflet": "^1.1.0",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^4.3.0",
+    "jquery": "^3.5.0",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "leaflet": "^1.6.0",
+    "webpack": "^4.43.0",
+    "webpack-bundle-analyzer": "^3.7.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "lodash": "^4.17.15",
+    "style-loader": "^1.2.1"
+  }
+}
