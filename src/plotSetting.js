@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-13 14:37:28
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-13 16:12:44
+ * @LastEditTime: 2020-05-14 10:43:21
  */
 
 export const defaultColor = ["#F75C2F", "#FB966E", "#F17C67", "#F596AA", "#F19483", "#FB9966","#FC9F4D",
@@ -103,6 +103,7 @@ function setCountryCoord(){
         { "name": "Egypt", "lat": 26.8205528, "lng": 30.8024979 },
         { "name": "Brunei", "lat": 4.74029, "lng": 114.6312 },
         { "name": "Serbia", "lat": 44.016521, "lng": 21.005859 },
+        { "name": "Bangladesh", "lat": 23.55, "lng": 90.43 },
         { "name": "Jordan", "lat": 30.5852, "lng": 36.2384 }
     ];
 
