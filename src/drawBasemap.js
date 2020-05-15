@@ -4,14 +4,14 @@
  * @Author: Anke Wang
  * @Date: 2020-05-13 14:43:10
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-14 10:57:49
+ * @LastEditTime: 2020-05-15 11:47:28
  */
 
 export const drawMap = () => {
 
     let bounds = new L.LatLngBounds(new L.LatLng(-85, -173), new L.LatLng(85, 450));
 
-    let mbAttr = 'Map data &copy; <a href="www.tianditu.gov.cn">Map World</a> ';
+    let mbAttr = 'Map data &copy; <a href="www.tianditu.gov.cn">Tianditu</a> ';
     // load the map
     let mymap = L.map('main1', {
         center: [35, 150],
