@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-08 13:27:01
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-13 17:05:24
+ * @LastEditTime: 2020-05-15 15:45:32
  */
 
 import './css/index.css'
@@ -343,6 +343,9 @@ $.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=group_
         };
 
         chart2.setOption(option2);
+        window.addEventListener("resize",function(){
+            chart2.resize();
+        });
     });
 
 //alert(datadata);
@@ -929,7 +932,12 @@ $.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=group_
     };
     
     chart3.setOption(option3);
+    
 
+    window.addEventListener("resize",function(){
+        chart3.resize();
+    });
+    
 
 })
 
