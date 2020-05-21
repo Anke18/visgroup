@@ -14,7 +14,7 @@ export const drawMap = () => {
     let mbAttr = 'Map data &copy; <a href="www.tianditu.gov.cn">Tianditu</a>';
     
     // load the map
-    let mymap = L.map('main1', {
+    let mymap = L.map('mainmap', {
         center: [35, 150],
         zoom: 2,
         minZoom: 1,
