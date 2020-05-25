@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-21 11:12:22
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-21 12:59:17
+ * @LastEditTime: 2020-05-25 09:58:55
  */
 
 import echarts from 'echarts'
@@ -48,8 +48,8 @@ export const getLatlngArr = (data) => {
     let latlngs = [];//[51.165691, 10.451526],
 
     data.forEach(function (k) {
-        if (getLatlng[k.id] == undefined) { console.log(k.id); }
-        latlngs.push(getLatlng[k.id]);
+        if (getLatlng[k.id] == undefined) { console.log(k.id);}
+        else latlngs.push(getLatlng[k.id]);
         //getLatlng[c.name] = {"lat":c.lat,"lng":c.lng}
     });
 

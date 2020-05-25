@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-13 14:37:28
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-16 22:25:00
+ * @LastEditTime: 2020-05-25 09:47:44
  */
 
 export const defaultColor = ["#F75C2F", "#FB966E", "#F17C67", "#F596AA", "#F19483", "#FB9966","#FC9F4D",
@@ -107,7 +107,10 @@ function setCountryCoord(){
         { "name": "Uruguay", "lat": -34.901112, "lng": 304.164532 },
         { "name": "Colombia", "lat": 4.570868, "lng": 285.702667 },
         { "name": "Romania", "lat": 45.943161, "lng": 24.966761 },
-        { "name": "Jordan", "lat": 30.5852, "lng": 36.2384 }
+        { "name": "Jamaica", "lat": 40.699783, "lng": 286.213 },
+        { "name": "Lebanon", "lat": 34.11806, "lng": 35.13972 },
+        { "name": "Uganda", "lat": 0.347596, "lng": 32.582520 },
+        { "name": "Jordan", "lat": 30.5852, "lng": 36.2384 },
     ];
 
     let getLatlng = {}
