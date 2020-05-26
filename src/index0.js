@@ -19,21 +19,21 @@ import { drawContPies } from './contPies';
 import { drawRosePies } from './rosePies';
 
 //0.001
-$.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=groupdata&area=countrys&frequency=0.001').done(function (cdata) {  
+$.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=groupdata&area=countrys&frequency=0').done(function (cdata) {  
 
     setMapiesOption(cdata.data)
 
 });
 
 
-$.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=groupdata&area=continents&frequency=0.001').done(function (data) {   
+$.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=groupdata&area=continents&frequency=0').done(function (data) {   
     
     drawContPies(data.data)
 
 });
 
 
-$.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=groupdata&area=rose&frequency=0.001').done(function (rdata) {
+$.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=groupdata&area=rose&frequency=0').done(function (rdata) {
 
     drawRosePies(rdata.data);
 

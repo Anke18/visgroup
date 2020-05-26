@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-12 13:27:01
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-12 17:02:40
+ * @LastEditTime: 2020-05-26 17:22:37
  */
 
 const path = require("path");
@@ -16,30 +16,100 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 
 module.exports = {
     mode: "none",
-    entry: "./src/index.js",
+    entry: {
+        index: "./src/index.js",
+        index0: "./src/index0.js",
+        index5: "./src/index5.js",
+        index01: "./src/index01.js",
+        index05: "./src/index05.js",
+    },
     devtool: "inline-source-map",
     devServer: {
         contentBase: "./dist",
         hot: true
     },
     output: {
-        filename: "bundle.js",
+        filename: "[name].bundle.js",
         path: path.resolve(__dirname, "dist")
     },
     plugins: [
         // new UglifyJsPlugin(),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            template: "./src/index.html",
-            minify: {
-                minimize: true,
-                removeConments: true,
-                collapseWhitespace: true,
-                minifyCSS: true,
-                minifyJS: true,
-
-            }
-        }),
+            // hash: true,
+             template: "./src/index.html",
+             filename: 'index.html' ,
+             chunks: ['index'],
+             minify: {
+                 minimize: true,
+                 removeConments: true,
+                 collapseWhitespace: true,
+                 minifyCSS: true,
+                 minifyJS: true,
+ 
+             }
+         }),
+         new HtmlWebpackPlugin({
+           //  hash: true,
+            // title: 'My Awesome application',
+           //  myPageHeader: 'Settings',
+             template: './src/index0.html',
+             chunks: ['index0'],
+             filename: 'index0.html' ,
+             minify: {
+                 minimize: true,
+                 removeConments: true,
+                 collapseWhitespace: true,
+                 minifyCSS: true,
+                 minifyJS: true,
+             }
+         }),
+         new HtmlWebpackPlugin({
+             //  hash: true,
+              // title: 'My Awesome application',
+             //  myPageHeader: 'Settings',
+               template: './src/index5.html',
+               chunks: ['index5'],
+               filename: 'index5.html' ,
+               minify: {
+                   minimize: true,
+                   removeConments: true,
+                   collapseWhitespace: true,
+                   minifyCSS: true,
+                   minifyJS: true,
+               }
+           }),
+           new HtmlWebpackPlugin({
+             //  hash: true,
+              // title: 'My Awesome application',
+             //  myPageHeader: 'Settings',
+               template: './src/index01.html',
+               chunks: ['index01'],
+               filename: 'index01.html' ,
+               minify: {
+                   minimize: true,
+                   removeConments: true,
+                   collapseWhitespace: true,
+                   minifyCSS: true,
+                   minifyJS: true,
+               }
+           }),
+           new HtmlWebpackPlugin({
+             //  hash: true,
+              // title: 'My Awesome application',
+             //  myPageHeader: 'Settings',
+               template: './src/index05.html',
+               chunks: ['index05'],
+               filename: 'index05.html' ,
+               minify: {
+                   minimize: true,
+                   removeConments: true,
+                   collapseWhitespace: true,
+                   minifyCSS: true,
+                   minifyJS: true,
+               }
+           }),
+           
         new webpack.HotModuleReplacementPlugin(),
         new webpack.ProvidePlugin({
             $: "jquery",
