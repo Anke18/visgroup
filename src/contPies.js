@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-21 11:13:15
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-21 13:56:07
+ * @LastEditTime: 2020-06-01 17:24:51
  */
 
 export const drawContPies = (cdatas) => {
@@ -69,7 +69,7 @@ export const drawContPies = (cdatas) => {
             trigger: 'item',
             formatter: '{a} <br/>{b} : {c} ({d}%)'
         },
-        color: ['#787D7B', '#86A697', '#3A8FB7', "#7DB9DE", "#DAC9A6", "#FAD689", "#F17C67", "#86C166", "#F6C555"],
+        color: ['#787D7B', '#86A697', "#3A8FB7", '#86C166', "#7DB9DE", "#DAC9A6", "#F6C555", "#FAD689", "#F17C67",],
         legend: {
             //orient: 'vertical',
             left: 'center',
@@ -89,6 +89,15 @@ export const drawContPies = (cdatas) => {
                 },
                 textStyle: {
                     fontSize: 10
+                }
+            },
+            itemStyle: {//customization
+                normal: {
+                    color: function (params) {
+                        var colorList = ['#787D7B', '#86A697', "#3A8FB7", '#86C166', "#7DB9DE", "#DAC9A6", "#F6C555", "#FAD689", "#F17C67",];
+                        //console.log(params.dataIndex);
+                        return colorList[params.dataIndex];
+                    },
                 }
             },
             lableLine: {
@@ -116,6 +125,15 @@ export const drawContPies = (cdatas) => {
                     fontSize: 10
                 }
             },
+            itemStyle: {//customization
+                normal: {
+                    color: function (params) {
+                        var colorList = ['#787D7B', '#86A697', "#3A8FB7", '#86C166', "#7DB9DE", "#DAC9A6", "#F6C555", "#FAD689", "#F17C67",];
+                        //console.log(params.dataIndex);
+                        return colorList[params.dataIndex];
+                    },
+                }
+            },
             lableLine: {
                 normal: {
                     show: false
@@ -138,6 +156,15 @@ export const drawContPies = (cdatas) => {
                 },
                 textStyle: {
                     fontSize: 10
+                }
+            },
+            itemStyle: {//customization
+                normal: {
+                    color: function (params) {
+                        var colorList = ['#787D7B', '#86A697', "#3A8FB7", '#86C166', "#7DB9DE", "#DAC9A6", "#F6C555", "#FAD689", "#F17C67",];
+                        //console.log(params.dataIndex);
+                        return colorList[params.dataIndex];
+                    },
                 }
             },
             lableLine: {
@@ -164,6 +191,15 @@ export const drawContPies = (cdatas) => {
                     fontSize: 10
                 }
             },
+            itemStyle: {//customization
+                normal: {
+                    color: function (params) {
+                        var colorList = ['#787D7B', '#86A697', "#3A8FB7", '#86C166', "#7DB9DE", "#DAC9A6", "#F6C555", "#FAD689", "#F17C67",];
+                        //console.log(params.dataIndex);
+                        return colorList[params.dataIndex];
+                    },
+                }
+            },
             lableLine: {
                 normal: {
                     show: false
@@ -188,6 +224,15 @@ export const drawContPies = (cdatas) => {
                     fontSize: 10
                 }
             },
+            itemStyle: {//customization
+                normal: {
+                    color: function (params) {
+                        var colorList = ['#787D7B', '#86A697', "#3A8FB7", '#86C166', "#7DB9DE", "#DAC9A6", "#F6C555", "#FAD689", "#F17C67",];
+                        //console.log(params.dataIndex);
+                        return colorList[params.dataIndex];
+                    },
+                }
+            },
             lableLine: {
                 normal: {
                     show: false
@@ -210,6 +255,15 @@ export const drawContPies = (cdatas) => {
                 },
                 textStyle: {
                     fontSize: 10
+                }
+            },
+            itemStyle: {//customization
+                normal: {
+                    color: function (params) {
+                        var colorList = ['#787D7B', '#86A697', "#3A8FB7", '#86C166', "#7DB9DE", "#DAC9A6", "#F6C555", "#FAD689", "#F17C67",];
+                        //console.log(params.dataIndex);
+                        return colorList[params.dataIndex];
+                    },
                 }
             },
             lableLine: {
