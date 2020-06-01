@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-13 14:37:28
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-28 09:26:03
+ * @LastEditTime: 2020-06-01 10:27:33
  */
 
 export const defaultColor = ["#F75C2F", "#FB966E", "#F17C67", "#F596AA", "#F19483", "#FB9966","#FC9F4D",
@@ -112,6 +112,7 @@ function setCountryCoord(){
         { "name": "Uganda", "lat": 0.347596, "lng": 32.582520 },
         { "name": "Jordan", "lat": 30.5852, "lng": 36.2384 },
         { "name": "Croatia", "lat": 45.815399, "lng": 15.966568 },
+        { "name": "Nigeria", "lat": 6.465422, "lng": 3.406448 },
     ];
 
     let getLatlng = {}
