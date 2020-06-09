@@ -43,6 +43,7 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
     "lodash": "^4.17.15",
-    "style-loader": "^1.2.1"
+    "style-loader": "^1.2.1",
+    "websocket-extensions": "^0.1.4"
   }
 }

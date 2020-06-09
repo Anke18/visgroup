@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-12 16:26:13
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-15 11:51:27
+ * @LastEditTime: 2020-06-09 17:04:13
 --> 
 # visgroup
 for ncov haplotype cluster visualization  
@@ -25,7 +25,7 @@ is aimed for ncov haplotype cluster visualization, which contains ——
 
 Related work: https://github.com/Anke18/hyplotypePlot & https://bigd.big.ac.cn/ncov/haplotype
 
-This project will be continuous improved by author...
+This project will be continuously improved by author...
 
 ### References & Packages
 
