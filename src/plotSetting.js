@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-13 14:37:28
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-06-16 11:05:42
+ * @LastEditTime: 2020-06-18 15:58:39
  */
 
 export const defaultColor = ["#F75C2F", "#FB966E", "#F17C67", "#F596AA", "#F19483", "#FB9966","#FC9F4D",
@@ -120,6 +120,8 @@ function setCountryCoord(){
         { "name": "BosniaandHerzegovina", "lat": 43.856430, "lng": 18.413029 },
         { "name": "Cyprus", "lat": 35.095192, "lng": 33.203430 },
         { "name": "Tunisia", "lat": 36.806389, "lng": 10.181667 },
+        { "name": "Mongolia", "lat": 47.921230, "lng": 106.918556, },
+        { "name": "California", "lat": 36.778259, "lng": 240.582069, },
     ];
 
     let getLatlng = {}
