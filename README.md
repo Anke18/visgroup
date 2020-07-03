@@ -23,7 +23,7 @@ is aimed for ncov haplotype cluster visualization, which contains ——
 (1) Global Distribution of Haplotype Cluster for Each Country/Continent;  
 (2) Global Distribution of Samples for Each Haplotype Cluster.  
 
-Related work: https://github.com/Anke18/hyplotypePlot & https://bigd.big.ac.cn/ncov/haplotype
+Related work: https://github.com/Anke18/haplotypePlot & https://bigd.big.ac.cn/ncov/haplotype
 
 This project will be continuously improved by author...
 
