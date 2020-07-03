@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-13 14:37:28
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-06-28 10:00:46
+ * @LastEditTime: 2020-07-03 16:39:39
  */
 
 export const defaultColor = ["#F75C2F", "#FB966E", "#F17C67", "#F596AA", "#F19483", "#FB9966","#FC9F4D",
@@ -114,6 +114,7 @@ function setCountryCoord(){
         { "name": "Croatia", "lat": 45.815399, "lng": 15.966568 },
         { "name": "Nigeria", "lat": 6.465422, "lng": 3.406448 },
         { "name": "Oman", "lat": 23.614328, "lng": 58.545284 },
+        { "name": "Marocco", "lat": 31.669746, "lng": -7.973328 },
         { "name": "Morocco", "lat": 31.669746, "lng": -7.973328 },
         { "name": "Kenya", "lat": -1.286389, "lng": 36.817223 },
         { "name": "Bosnia and Herzegovina", "lat": 43.856430, "lng": 18.413029 },
@@ -126,6 +127,7 @@ function setCountryCoord(){
         { "name": "ISRAEL", "lat": 31.771959 , "lng": 35.217018 },
         { "name": "Benin", "lat": 6.379448 , "lng": 2.451324 },
         { "name": "Venezuela", "lat": 10.500000 , "lng": 293.194444 },
+        { "name": "Bulgaria", "lat": 42.698334 , "lng": 23.319941 },
     ];
 
     let getLatlng = {}
