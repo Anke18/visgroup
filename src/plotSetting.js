@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-13 14:37:28
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-07-15 09:58:17
+ * @LastEditTime: 2020-07-16 09:29:40
  */
 
 export const defaultColor = ["#F75C2F", "#FB966E", "#F17C67", "#F596AA", "#F19483", "#FB9966","#FC9F4D",
@@ -130,6 +130,7 @@ function setCountryCoord(){
         { "name": "Bulgaria", "lat": 42.698334 , "lng": 23.319941 },
         { "name": "Peru", "lat": -9.01465 , "lng": 283.72806 },
         { "name": "Bahrain", "lat": 26.201000 , "lng": 50.606998 },
+        { "name": "Mali", "lat": 15.08943 , "lng": 0.14111 },
     ];
 
     let getLatlng = {}
