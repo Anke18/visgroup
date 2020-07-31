@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-13 14:37:28
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-07-22 10:55:56
+ * @LastEditTime: 2020-07-31 10:06:12
  */
 
 export const defaultColor = ["#F75C2F", "#FB966E", "#F17C67", "#F596AA", "#F19483", "#FB9966","#FC9F4D",
@@ -133,6 +133,7 @@ function setCountryCoord(){
         { "name": "Mali", "lat": 15.08943 , "lng": 0.14111 },
         { "name": "North Macedonia", "lat": 41.6137143 , "lng": 21.743258 },
         { "name": "NorthMacedonia", "lat": 41.6137143 , "lng": 21.743258 },
+        { "name": "Zambia", "lat": 	-15.411899, "lng": 28.285805 },
     ];
 
     let getLatlng = {}
