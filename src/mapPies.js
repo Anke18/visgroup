@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-21 11:12:22
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-25 09:58:55
+ * @LastEditTime: 2020-10-09 11:21:16
  */
 
 import echarts from 'echarts'
@@ -31,10 +31,12 @@ export const echartsIcon = (map, latlngs, option) => {
 
         option.series[0].name = option.datas[i].id;
         option.series[0].data = option.datas[i].pie;
-        if (option.datas[i].r < 10) { option.series[0].radius = Math.round(option.datas[i].r) + 20 }
-        else if (option.datas[i].r >= 10 & option.datas[i].r < 100) { option.series[0].radius = Math.round(option.datas[i].r / 10) + 25 }
-        else if (option.datas[i].r >= 100 & option.datas[i].r < 1000) { option.series[0].radius = Math.round(option.datas[i].r / 100) + 30 }
-        else { option.series[0].radius = Math.round(option.datas[i].r / 1000) + 35 }
+        // set radius
+        if (option.datas[i].r < 10) { option.series[0].radius = Math.round(option.datas[i].r) + 10 }
+        else if (option.datas[i].r >= 10 & option.datas[i].r < 100) { option.series[0].radius = Math.round(option.datas[i].r / 10) + 15 }
+        else if (option.datas[i].r >= 100 & option.datas[i].r < 1000) { option.series[0].radius = Math.round(option.datas[i].r / 100) + 20 }
+        else if (option.datas[i].r >= 1000 & option.datas[i].r < 10000 ) { option.series[0].radius = Math.round(option.datas[i].r / 1000) + 25 }
+        else  { option.series[0].radius = Math.round(option.datas[i].r / 10000) + 35 }
         //let getrd = option.datas[i].r/pp;
         //console.log(getrd);
         //option.series[0].radius = Math.round(option.datas[i].r/100)+5;
