@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-13 14:37:28
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-08-17 10:03:39
+ * @LastEditTime: 2020-10-09 11:03:45
  */
 
 export const defaultColor = ["#F75C2F", "#FB966E", "#F17C67", "#F596AA", "#F19483", "#FB9966","#FC9F4D",
@@ -140,6 +140,14 @@ function setCountryCoord(){
         { "name": "Sierra Leone", "lat":  8.484444, "lng": -13.234444},
         { "name": "Ukraine", "lat":  49.988358, "lng": 36.232845},
         { "name": "Myanmar", "lat":  16.871311, "lng": 	96.199379 },
+        { "name": "Suriname", "lat": 5.5, "lng": -54.55 },
+        { "name": "Iraq", "lat":  33.312805, "lng": 44.361488 },
+        { "name": "Montenegro", "lat":  42.790443, "lng": 19.250734 },
+        { "name": "Moldova", "lat":  47.003670, "lng": 	28.907089 },
+        { "name": "Gabon", "lat":  1.07597, "lng": 9.78151 },
+        { "name": "Ghana", "lat":  	5.550000, "lng": -0.020000 },
+        { "name": "Botswana", "lat":  -24.653257, "lng": 25.906792 },
+        { "name": "Andorra", "lat": 42.506317, "lng": 1.521835 },
     ];
 
     let getLatlng = {}
