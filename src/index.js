@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-08 13:27:01
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-05-26 17:07:11
+ * @LastEditTime: 2020-11-03 14:12:25
  */
 
 import './css/index.css'
@@ -19,7 +19,7 @@ import { drawContPies } from './contPies';
 import { drawRosePies } from './rosePies';
 
 //0.001
-$.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=groupdata&area=countrys&frequency=0.001').done(function (cdata) {  
+$.getJSON('https://bigd.big.ac.cn/ncov/rest/variation/haplotype/json?date=groupdata&area=countrys&frequency=0.0001').done(function (cdata) {  
 
     setMapiesOption(cdata.data)
 

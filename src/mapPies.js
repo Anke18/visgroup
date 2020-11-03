@@ -4,7 +4,7 @@
  * @Author: Anke Wang
  * @Date: 2020-05-21 11:12:22
  * @LastEditors: Anke Wang
- * @LastEditTime: 2020-10-09 11:21:16
+ * @LastEditTime: 2020-11-03 14:17:28
  */
 
 import echarts from 'echarts'
@@ -17,6 +17,9 @@ export const echartsIcon = (map, latlngs, option) => {
     //function echartsIcon(map, latlngs, option) {
     for (var i = 0; i < latlngs.length; i++) {
         var latlng = latlngs[i];
+        //console.log(latlng);
+        //console.log(latlng.lat);
+        if(latlng[0] == null) {continue;}
         var newClassName = 'icon-' + latlng.join('-');
         // console.log(latlng);
         // console.log(newClassName );
