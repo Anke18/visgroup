@@ -42,7 +42,7 @@
     "@babel/preset-env": "^7.9.0",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "lodash": "^4.17.19",
     "serialize-javascript": "^4.0.0",
     "style-loader": "^1.2.1",
